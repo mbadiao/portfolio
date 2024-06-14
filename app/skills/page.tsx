@@ -28,19 +28,19 @@ const Project = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const icons = [
-    <FaReact />,
-    <FaGitAlt />,
-    <FaHtml5 />,
-    <FaCss3Alt />,
-    <FaNodeJs />,
-    <TbBrandNextjs />,
-    <SiTypescript />,
-    <SiTailwindcss />,
-    <SiShadcnui />,
-    <SiExpress />,
-    <SiMongodb />,
-    <IoLogoJavascript />,
-    <FaGolang />,
+    { component: <FaReact />, name: 'FaReact' },
+    { component: <FaGitAlt />, name: 'FaGitAlt' },
+    { component: <FaHtml5 />, name: 'FaHtml5' },
+    { component: <FaCss3Alt />, name: 'FaCss3Alt' },
+    { component: <FaNodeJs />, name: 'FaNodeJs' },
+    { component: <TbBrandNextjs />, name: 'TbBrandNextjs' },
+    { component: <SiTypescript />, name: 'SiTypescript' },
+    { component: <SiTailwindcss />, name: 'SiTailwindcss' },
+    { component: <SiShadcnui />, name: 'SiShadcnui' },
+    { component: <SiExpress />, name: 'SiExpress' },
+    { component: <SiMongodb />, name: 'SiMongodb' },
+    { component: <IoLogoJavascript />, name: 'IoLogoJavascript' },
+    { component: <FaGolang />, name: 'FaGolang' },
   ];
   useEffect(() => {
     if (!api) {
@@ -70,7 +70,7 @@ const Project = () => {
               {icons.map((Icon, index) => (
                 <CarouselItem className="basis-1/4 lg:basis-1/6" key={`icon-${index}`}>
                   <div className="flex rounded-md aspect-square bg-muted items-center justify-center p-6">
-                    <span className="text-5xl">{Icon}</span>
+                    <span className="text-5xl" key={`icon-${index}`}>{Icon.component}</span>
                   </div>
                 </CarouselItem>
               ))}
