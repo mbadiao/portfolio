@@ -24,9 +24,11 @@ import {
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaGolang } from "react-icons/fa6";
+
 const Project = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
+
   const icons = [
     { component: <FaReact />, name: 'FaReact' },
     { component: <FaGitAlt />, name: 'FaGitAlt' },
@@ -42,35 +44,38 @@ const Project = () => {
     { component: <IoLogoJavascript />, name: 'IoLogoJavascript' },
     { component: <FaGolang />, name: 'FaGolang' },
   ];
+
   useEffect(() => {
     if (!api) {
       return;
     }
 
-    setTimeout(() => {
+    const interval = setInterval(() => {
       if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
         setCurrent(0);
         api.scrollTo(0);
       } else {
         api.scrollNext();
-        setCurrent(current + 1);
+        setCurrent((prev) => prev + 1);
       }
     }, 1000);
-  }, [api, current]);
+
+    return () => clearInterval(interval);
+  }, [api]);
 
   return (
     <div className="w-full py-10 lg:py-20">
       <div className="container mx-auto">
-        <div className="flex flex-col  gap-10">
-          <h2 className="text-xl md:text-3xl  tracking-tighter lg:max-w-xl font-regular text-left text-white">
+        <div className="flex flex-col gap-10">
+          <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left text-white">
             Tech Stack that I use in my projects
           </h2>
           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
-              {icons.map((Icon, index) => (
-                <CarouselItem className="basis-1/4 lg:basis-1/6" key={`icon-${index}`}>
+              {icons.map((icon, index) => (
+                <CarouselItem className="basis-1/4 lg:basis-1/6" key={icon.name}>
                   <div className="flex rounded-md aspect-square bg-muted items-center justify-center p-6">
-                    <span className="text-5xl" key={`icon-${index}`}>{Icon.component}</span>
+                    <span className="text-5xl">{icon.component}</span>
                   </div>
                 </CarouselItem>
               ))}
