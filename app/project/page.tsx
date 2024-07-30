@@ -136,7 +136,7 @@ const project = () => (
               and
               <Link
                 className="text-white"
-                href="https://www.figma.com/design/B9mGnkkZXI7Fdh9w98ka2d/Forum?node-id=444-2&t=JBljY2KAH9Y6fgYQ-0"
+                href="https://www.figma.com/design/B9mGnkkZXI7Fdh9w98ka2d/Forum?node-id=669-28&t=79lDa0jChLNPpoLZ-0"
                 target="blank"
               >
                 {" "}
