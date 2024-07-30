@@ -163,6 +163,7 @@ const project = () => (
                 {" "}
                 Code
               </Link>
+              and
               <Link
                 className="text-white"
                 href="https://www.figma.com/design/EdE6cfqAmYpoRpuxvGddpp/todo-app?node-id=0-1&t=6nQAMGaCKBmiRB79-0"
