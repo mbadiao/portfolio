@@ -106,7 +106,7 @@ const project = () => (
               backend websockets html css and js for the front end see{" "}
               <Link
                 className="text-white"
-                href="https://www.figma.com/design/SIsPTCkOY2NHSspiMGBthq/Portfolio?node-id=18-3&t=EakAY7Ox8AN3zE9s-0"
+                href="https://www.figma.com/design/SIsPTCkOY2NHSspiMGBthq/Portfolio?t=5yVCCvYKEqDmGjOJ-1"
                 target="blank"
               >
                 Design figma
@@ -166,7 +166,7 @@ const project = () => (
               and
               <Link
                 className="text-white"
-                href="https://www.figma.com/design/EdE6cfqAmYpoRpuxvGddpp/todo-app?node-id=0-1&t=6nQAMGaCKBmiRB79-0"
+                href="https://www.figma.com/design/EdE6cfqAmYpoRpuxvGddpp/todo-app?node-id=0-1&t=5yVCCvYKEqDmGjOJ-1"
                 target="blank"
               >
                 {" "}
