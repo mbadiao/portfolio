@@ -14,14 +14,8 @@ const Footer = () => {
       <Link href='https://github.com/mbadiao' target='blank'>
       <Github />
       </Link>
-      <Link href='https://www.instagram.com/diao__mb01' target='blank'>
-      <Instagram />
-      </Link>
       <Link href='https://linkedin.com/in/mbaye-diao' target='blank'>
       <Linkedin />
-      </Link>
-      <Link href='https://x.com/MbayeDiao404' target='blank'>
-      <Twitter />
       </Link>
     </m.div>
   )
