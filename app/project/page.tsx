@@ -84,7 +84,7 @@ const project = () => (
               and
               <Link
                 className="text-white"
-                href="https://www.figma.com/design/wCtpIX9XPo63okB7F6XT2o/Untitled?node-id=0-1&t=6NXv2D4kuxt058IQ-0"
+                href="https://www.figma.com/design/wCtpIX9XPo63okB7F6XT2o/Untitled?t=5yVCCvYKEqDmGjOJ-1"
                 target="blank"
               >
                 {" "}
