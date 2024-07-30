@@ -50,7 +50,7 @@ const project = () => (
             <p className="text-muted-foreground text-base">
               A statique website for a company that offers services in the field of digital marketing.See 
               <Link className="text-white" href="https://github.com/mbadiao/workflow" target="blank"> Code</Link> and 
-              <Link className="text-white" href="https://github.com/mbadiao/workflow" target="blank"> Design figma</Link>
+              <Link className="text-white" href="https://www.figma.com/design/wCtpIX9XPo63okB7F6XT2o/Untitled?node-id=0-1&t=Ij8DcJVIHVkWEVHT-1" target="blank"> Design figma</Link>
             </p>
           </div>
           <div className="flex flex-col gap-2">
