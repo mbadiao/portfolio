@@ -5,6 +5,7 @@ import forum from "../../public/forum.png";
 import todo from "../../public/todo.png";
 import workflow from "../../public/workflow.png";
 import realTimeForum from "../../public/realtimeforum.png";
+import caza from "../../public/caza.png";
 import Link from "next/link";
 const project = () => (
   <div className="w-full py-10 lg:py-20 text-white">
@@ -25,6 +26,37 @@ const project = () => (
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-2">
+            <div className="bg-muted rounded-md aspect-video ">
+              <Image
+                src={caza}
+                alt="Brick Breaker"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <h3 className="text-xl tracking-tight">CaZa</h3>
+            <p className="text-muted-foreground text-base">
+              CaZa is an apartment rental app for students and a hotel rental
+              app for tourists. The app enables users to find accommodation to
+              suit their needs, whether they&apos;re students looking for an
+              affordable apartment or tourists looking for a comfortable hotel.{" "}
+              <Link
+                className="text-white"
+                href="https://teranga-stay.vercel.app/"
+                target="blank"
+              >
+                Demo
+              </Link>{" "}
+              and{" "}
+              <Link
+                className="text-white"
+                href="https://github.com/mbadiao/TerangaStay"
+                target="blank"
+              >
+                Code{" "}
+              </Link>
+            </p>
+          </div>
           <div className="flex flex-col gap-2">
             <div className="bg-muted rounded-md aspect-video ">
               <Image
@@ -61,6 +93,7 @@ const project = () => (
               </Link>
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
             <div className="bg-muted rounded-md aspect-video mb-2">
               <Image
