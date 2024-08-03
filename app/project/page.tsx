@@ -6,6 +6,7 @@ import todo from "../../public/todo.png";
 import workflow from "../../public/workflow.png";
 import realTimeForum from "../../public/realtimeforum.png";
 import caza from "../../public/caza.png";
+import sunushop from "../../public/sunuShop.png";
 import Link from "next/link";
 const project = () => (
   <div className="w-full py-10 lg:py-20 text-white">
@@ -51,6 +52,38 @@ const project = () => (
               <Link
                 className="text-white"
                 href="https://github.com/mbadiao/TerangaStay"
+                target="blank"
+              >
+                Code{" "}
+              </Link>
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <div className="bg-muted rounded-md aspect-video ">
+              <Image
+                src={sunushop}
+                alt="sunushop"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <h3 className="text-xl tracking-tight">sunuShop</h3>
+            <p className="text-muted-foreground text-base">
+              SunuShop is a cutting-edge e-commerce platform dedicated to
+              bringing you the latest trends in fashion. Whether you&apos;re looking
+              for stylish outfits, trendy accessories, or seasonal wardrobe
+              staples, SunuShop offers a curated selection of high-quality
+              clothing for men, women, and children.{" "}
+              <Link
+                className="text-white"
+                href="https://sunushop.vercel.app/"
+                target="blank"
+              >
+                Demo
+              </Link>{" "}
+              and{" "}
+              <Link
+                className="text-white"
+                href="https://github.com/mbadiao/e-commerce"
                 target="blank"
               >
                 Code{" "}
