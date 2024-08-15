@@ -43,7 +43,7 @@ const project = () => (
               affordable apartment or tourists looking for a comfortable hotel.{" "}
               <Link
                 className="text-white"
-                href="https://teranga-stay.vercel.app/"
+                href="https://ca-za.vercel.app/"
                 target="blank"
               >
                 Demo
