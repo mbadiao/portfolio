@@ -103,7 +103,7 @@ const project = () => (
               game developed using Vanilla JS , HTML5 and CSS3{" "}
               <Link
                 className="text-white"
-                href="https://brick-breacker.vercel.app/"
+                href="https://gamebrickbreaker.vercel.app/"
                 target="blank"
               >
                 Demo
