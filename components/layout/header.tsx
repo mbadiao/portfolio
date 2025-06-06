@@ -26,16 +26,16 @@ export const Hero = () => (
               <FlipWordsDemo />
             </h1>
             <p className="text-xl text-neutral-200 leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
-              I am a junior full-stack developer with a focus on the front-end.
+              I am a  full-stack developer .
             </p>
           </div>
           <motion.div className="flex flex-row gap-4">
-            <Link href="/skills">
+            <Link href="#">
               <Button size="lg" className="gap-4" variant="outline">
                 Skills
               </Button>
             </Link>
-            <Link href="/project">
+            <Link href="#">
               <Button size="lg" className="gap-4 " variant="outline">
                 Projects
               </Button>

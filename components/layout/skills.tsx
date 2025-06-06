@@ -25,7 +25,7 @@ import {
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaGolang } from "react-icons/fa6";
 
-const Project = () => {
+const Skills = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
@@ -87,4 +87,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Skills;

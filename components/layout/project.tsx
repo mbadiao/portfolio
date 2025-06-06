@@ -8,7 +8,8 @@ import realTimeForum from "../../public/realtimeforum.png";
 import caza from "../../public/caza.png";
 import sunushop from "../../public/sunuShop.png";
 import Link from "next/link";
-const project = () => (
+
+const Project = () => (
   <div className="w-full py-10 lg:py-20 text-white">
     <div className="container mx-auto">
       <div className="flex flex-col gap-10">
@@ -246,4 +247,4 @@ const project = () => (
   </div>
 );
 
-export default project;
+export default Project;
