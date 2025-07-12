@@ -2,14 +2,14 @@ import React from "react";
 import { FlipWords } from "../ui/flip-words";
 
 export function FlipWordsDemo() {
-  const words = ["developer", "designer"];
+  const words = ["developer", "designer", "problem solver", "innovator"];
 
   return (
-    <div className="flex">
-      <div className="text-4xl h-[100%] font-normal text-neutral-200 dark:text-neutral-100">
+    <div className="flex items-center">
+      <span className="text-2xl lg:text-3xl xl:text-4xl font-medium text-neutral-300">
         web
-        <FlipWords className="text-white text-5xl" words={words} /> <br />
-      </div>
+      </span>
+      <FlipWords className="text-emerald-400 text-2xl lg:text-3xl xl:text-4xl font-medium ml-2" words={words} />
     </div>
   );
 }
