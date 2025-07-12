@@ -112,10 +112,10 @@ const Contact = () => {
                 Get In Touch
               </Badge>
               <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-white mb-6">
-                Let's Work Together
+                Let&apos;s Work Together
               </h2>
               <p className="text-lg lg:text-xl text-neutral-400 leading-relaxed">
-                I'm always open to discussing new opportunities, interesting projects, 
+                I&apos;m always open to discussing new opportunities, interesting projects, 
                 or just having a chat about technology and development.
               </p>
             </motion.div>
@@ -135,7 +135,7 @@ const Contact = () => {
                   Contact Information
                 </h3>
                 <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-                  Feel free to reach out if you'd like to collaborate on a project, 
+                  Feel free to reach out if you&apos;d like to collaborate on a project, 
                   discuss potential opportunities, or just want to say hello!
                 </p>
               </div>

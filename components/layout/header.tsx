@@ -35,7 +35,7 @@ export const Hero = () => (
             className="flex gap-4 flex-col"
           >
             <h2 className="text-neutral-300 text-lg font-medium tracking-wide">
-              Hello, I'm
+              Hello, I&apos;m
             </h2>
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-white">
               Mbaye Diao
